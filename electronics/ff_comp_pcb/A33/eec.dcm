@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP A33
-D A33
-F http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf
-$ENDCMP
-# end doc library

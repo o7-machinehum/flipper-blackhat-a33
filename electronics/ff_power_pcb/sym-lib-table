@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/ti/ti.lib)(options "")(descr ""))
-  (lib (name CUI)(type Legacy)(uri ${KIPRJMOD}/cui/PBO-5C-12.lib)(options "")(descr ""))
-  (lib (name hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/hardware-rescue.lib)(options "")(descr ""))
-  (lib (name mains_blade)(type Legacy)(uri ${KIPRJMOD}/mains_blade/mains_blade.lib)(options "")(descr ""))
-)

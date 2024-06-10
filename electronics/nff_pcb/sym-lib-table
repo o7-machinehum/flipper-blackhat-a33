@@ -1,6 +1,9 @@
 (sym_lib_table
-  (lib (name Allwinner_A33)(type Legacy)(uri ${KIPRJMOD}/A33/eec.lib)(options "")(descr ""))
-  (lib (name AS4C512M16D3L)(type Legacy)(uri ${KIPRJMOD}/AS4C512M16D3L/eec.lib)(options "")(descr ""))
-  (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/ti/ti.lib)(options "")(descr ""))
-  (lib (name MPM-15-5)(type Legacy)(uri ${KIPRJMOD}/MPM-15-5/eec.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Allwinner_A33")(type "Legacy")(uri "${KIPRJMOD}/A33/eec.lib")(options "")(descr ""))
+  (lib (name "AS4C512M16D3L")(type "Legacy")(uri "${KIPRJMOD}/AS4C512M16D3L/eec.lib")(options "")(descr ""))
+  (lib (name "TI")(type "Legacy")(uri "${KIPRJMOD}/ti/ti.lib")(options "")(descr ""))
+  (lib (name "MPM-15-5")(type "Legacy")(uri "${KIPRJMOD}/MPM-15-5/eec.lib")(options "")(descr ""))
+  (lib (name "hardware-rescue")(type "KiCad")(uri "${KIPRJMOD}/hardware-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Wlkr_Drivers")(type "KiCad")(uri "${KIPRJMOD}/../kilib/Driver.kicad_sym")(options "")(descr ""))
 )

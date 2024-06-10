@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ABS05-32.768KHZ-9-T
-D ABS05-32.768KHZ-9-T
-F https://abracon.com/Resonators/ABS05.pdf
-$ENDCMP
-# end doc library

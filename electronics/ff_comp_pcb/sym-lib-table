@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name Allwinner_A33)(type Legacy)(uri ${KIPRJMOD}/A33/eec.lib)(options "")(descr ""))
-  (lib (name AS4C512M16D3L)(type Legacy)(uri ${KIPRJMOD}/AS4C512M16D3L/eec.lib)(options "")(descr ""))
-  (lib (name realtek)(type Legacy)(uri ${KIPRJMOD}/realtek/realtek.lib)(options "")(descr ""))
-)

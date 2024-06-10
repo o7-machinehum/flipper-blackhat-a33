@@ -29,3 +29,6 @@ fp-info-cache
 *.ses
 
 *.zip
+
+.DS_Store
+hardware-rescue.kicad_sym

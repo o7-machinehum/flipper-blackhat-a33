@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name TI)(type KiCad)(uri ${KIPRJMOD}/ti/ti.pretty)(options "")(descr ""))
-  (lib (name CUI)(type KiCad)(uri ${KIPRJMOD}/cui/cui.pretty)(options "")(descr ""))
-  (lib (name Bourns)(type KiCad)(uri ${KIPRJMOD}/Bourns/Bourns.pretty)(options "")(descr ""))
-  (lib (name ff_power_pcb)(type KiCad)(uri ${KIPRJMOD}/mains_blade/ff_power_pcb.pretty)(options "")(descr ""))
-  (lib (name mains_blade)(type KiCad)(uri ${KIPRJMOD}/mains_blade/mains_blade.pretty)(options "")(descr ""))
-)
