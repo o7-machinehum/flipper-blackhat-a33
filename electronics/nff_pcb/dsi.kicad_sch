@@ -2847,6 +2847,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R7BB224"
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c312f14c-e6f4-4024-af5f-fae193e8347d")
 		)
@@ -3266,6 +3275,15 @@
 		)
 		(property "Description" ""
 			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP3036BKTR-G1"
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 48.26 0)
 			(effects
 				(font
@@ -3754,6 +3772,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A105KO5NNNC"
 			(at 120.65 48.26 0)
 			(effects
 				(font

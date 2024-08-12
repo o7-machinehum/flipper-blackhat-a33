@@ -2352,8 +2352,8 @@
 	(bus_alias "BT"
 		(members "WAKE" "HOST_WAKE" "RST_N")
 	)
-	(bus_alias "SDC"
-		(members "D[3..0]" "CLK" "CMD")
+	(bus_alias "SDC1"
+		(members "SDC1.D[3..0]" "SDC1.CLK" "SDC1.CMD")
 	)
 	(bus_alias "UART"
 		(members "RTS_N" "TXD" "RXD" "CTS_N")
@@ -2429,12 +2429,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50916f50-b8da-42ad-afaf-e5a1eb0afe1c")
-	)
-	(junction
-		(at 162.56 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51ad0a25-7a6e-4091-a071-83307bf85f0c")
 	)
 	(junction
 		(at 162.56 132.08)
@@ -2985,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 162.56 66.04)
+			(xy 160.02 66.04) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 162.56 66.04)
+			(xy 163.83 68.58) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3886,16 +3880,6 @@
 		)
 		(uuid "e470f0db-1d4f-4e8a-aeaa-92256e87ca82")
 	)
-	(wire
-		(pts
-			(xy 162.56 68.58) (xy 163.83 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5daa659-1b8e-45a0-bd57-a0ca7cc4e64f")
-	)
 	(bus
 		(pts
 			(xy 69.85 59.69) (xy 69.85 68.58)
@@ -3908,7 +3892,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 68.58) (xy 162.56 68.58)
+			(xy 157.48 68.58) (xy 163.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4184,7 +4168,7 @@
 		)
 		(uuid "124094e7-4929-47f4-a46c-f4c4444e90cf")
 	)
-	(label "D0"
+	(label "SDC1.D0"
 		(at 72.39 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4195,7 +4179,7 @@
 		)
 		(uuid "1486c44a-2605-4de2-baa2-0ab1d8f719fa")
 	)
-	(label "CLK"
+	(label "SDC1.CLK"
 		(at 72.39 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4206,7 +4190,7 @@
 		)
 		(uuid "344631eb-68b6-48e5-9e2b-64edabacea87")
 	)
-	(label "CMD"
+	(label "SDC1.CMD"
 		(at 72.39 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4239,7 +4223,7 @@
 		)
 		(uuid "5d99a2be-6de2-41df-9e04-d9c712214bfb")
 	)
-	(label "D3"
+	(label "SDC1.D3"
 		(at 72.39 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4272,7 +4256,7 @@
 		)
 		(uuid "958eb0a2-1141-4a62-91d8-3758af7d6fe1")
 	)
-	(label "D1"
+	(label "SDC1.D1"
 		(at 72.39 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4349,7 +4333,7 @@
 		)
 		(uuid "f1300acb-db95-4e46-be09-64ce594648c7")
 	)
-	(label "D2"
+	(label "SDC1.D2"
 		(at 72.39 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4407,7 +4391,7 @@
 		)
 		(uuid "807edad4-f90d-4992-bb22-afac757431da")
 	)
-	(hierarchical_label "{SDC}"
+	(hierarchical_label "{SDC1}"
 		(shape input)
 		(at 64.77 59.69 180)
 		(fields_autoplaced yes)
@@ -5876,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-130RL"
+		(property "MPN" "RC0402FR-070RL"
 			(at 104.14 127 90)
 			(effects
 				(font
@@ -6859,7 +6843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BLM18KG121TN1D"
 			(at 205.74 71.12 90)
 			(effects
 				(font

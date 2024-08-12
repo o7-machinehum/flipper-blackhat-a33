@@ -6610,6 +6610,9 @@
 			)
 		)
 	)
+	(bus_alias "SDC0"
+		(members "SDC0.D[3..0]" "SDC0.CLK" "SDC0.CMD")
+	)
 	(bus_alias "USB"
 		(members "D+" "D-")
 	)
@@ -6743,6 +6746,15 @@
 		(uuid "0bcc1f8b-db0e-4c14-b1e6-8ee73556f430")
 	)
 	(bus_entry
+		(at 74.93 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7ca818-6290-4a5e-82ae-32bdc449cc81")
+	)
+	(bus_entry
 		(at 163.83 57.15)
 		(size 2.54 2.54)
 		(stroke
@@ -6786,6 +6798,15 @@
 			(type default)
 		)
 		(uuid "37ddd766-6d1c-4bb0-843e-1523dbfa5479")
+	)
+	(bus_entry
+		(at 74.93 80.01)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db55968-039f-4c9f-a8ad-5b9752070e7c")
 	)
 	(bus_entry
 		(at 163.83 72.39)
@@ -7512,7 +7533,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 80.01) (xy 67.31 80.01)
+			(xy 53.34 80.01) (xy 74.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8002,6 +8023,16 @@
 	)
 	(bus
 		(pts
+			(xy 77.47 77.47) (xy 77.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c76c94-82bd-4881-815d-55c760025587")
+	)
+	(bus
+		(pts
 			(xy 77.47 87.63) (xy 77.47 90.17)
 		)
 		(stroke
@@ -8159,6 +8190,16 @@
 			(type default)
 		)
 		(uuid "be19b205-7917-4e97-8507-0370c7fbb91a")
+	)
+	(bus
+		(pts
+			(xy 77.47 74.93) (xy 77.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be24eaea-caf2-40ba-b39b-a4c141b459eb")
 	)
 	(wire
 		(pts
@@ -8342,7 +8383,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 77.47) (xy 53.34 77.47)
+			(xy 53.34 77.47) (xy 74.93 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8392,7 +8433,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 72.39) (xy 77.47 80.01)
+			(xy 77.47 72.39) (xy 77.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8500,7 +8541,7 @@
 		)
 		(uuid "e726c8a5-ca69-4258-9401-c1503eedbc95")
 	)
-	(label "D3"
+	(label "SDC1.D3"
 		(at 57.15 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8522,7 +8563,7 @@
 		)
 		(uuid "261f9529-25cc-4877-9470-6d353837eece")
 	)
-	(label "SD_DAT1"
+	(label "SDC0.D1"
 		(at 57.15 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8544,7 +8585,7 @@
 		)
 		(uuid "2dd65555-b831-49c7-b436-1d05949a0c97")
 	)
-	(label "CMD"
+	(label "SDC1.CMD"
 		(at 57.15 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8568,6 +8609,7 @@
 	)
 	(label "D+"
 		(at 113.03 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8576,7 +8618,7 @@
 		)
 		(uuid "501fd4e4-aad3-442e-9b4f-d9035242eb3b")
 	)
-	(label "SD_CMD"
+	(label "SDC0.CMD"
 		(at 57.15 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8609,7 +8651,7 @@
 		)
 		(uuid "61e08c73-80fa-40a8-9eb3-45dac19877ed")
 	)
-	(label "SD_DAT2"
+	(label "SDC0.D2"
 		(at 57.15 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8620,7 +8662,7 @@
 		)
 		(uuid "66a1624a-a484-4de2-877d-93a7da245e92")
 	)
-	(label "SD_DAT0"
+	(label "SDC0.D0"
 		(at 57.15 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8631,7 +8673,7 @@
 		)
 		(uuid "69903a62-0931-4322-a093-05f2e60c0b32")
 	)
-	(label "CLK"
+	(label "SDC1.CLK"
 		(at 57.15 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8642,7 +8684,7 @@
 		)
 		(uuid "6c81ce64-b2c0-4803-936a-37345a94c383")
 	)
-	(label "D1"
+	(label "SDC1.D1"
 		(at 57.15 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8708,7 +8750,7 @@
 		)
 		(uuid "85b400ce-a9c9-492c-bdaf-da0f832eb561")
 	)
-	(label "D2"
+	(label "SDC1.D2"
 		(at 57.15 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8719,7 +8761,7 @@
 		)
 		(uuid "8b3ca516-9716-452f-ac48-022ccf9fd104")
 	)
-	(label "SD_CLK"
+	(label "SDC0.CLK"
 		(at 57.15 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8730,7 +8772,7 @@
 		)
 		(uuid "8cbc27c0-d62b-4a4d-880c-61c9e6fe6649")
 	)
-	(label "D0"
+	(label "SDC1.D0"
 		(at 57.15 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8774,7 +8816,7 @@
 		)
 		(uuid "ab91a8e5-b7e4-4bdd-9623-3c05a061a1fb")
 	)
-	(label "SD_DAT3"
+	(label "SDC0.D3"
 		(at 57.15 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8809,6 +8851,7 @@
 	)
 	(label "D-"
 		(at 113.03 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8937,18 +8980,6 @@
 		)
 		(uuid "7a00ddb6-b9bf-4072-8a2d-28a397fde4ac")
 	)
-	(hierarchical_label "SD_CLK"
-		(shape input)
-		(at 67.31 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "805c1ea4-7543-45a3-b37e-44563b162b2e")
-	)
 	(hierarchical_label "USB-DP1"
 		(shape input)
 		(at 160.02 44.45 180)
@@ -8985,7 +9016,7 @@
 		)
 		(uuid "b8261559-5c3a-445f-b691-cd828cdd9d58")
 	)
-	(hierarchical_label "{SDC}"
+	(hierarchical_label "{SDC1}"
 		(shape input)
 		(at 81.28 86.36 0)
 		(fields_autoplaced yes)
@@ -9009,7 +9040,7 @@
 		)
 		(uuid "d4adf88c-fa2a-4378-9f76-35676eb6aac6")
 	)
-	(hierarchical_label "SD_DAT[0..3]"
+	(hierarchical_label "{SDC0}"
 		(shape input)
 		(at 81.28 67.31 0)
 		(fields_autoplaced yes)
@@ -9056,18 +9087,6 @@
 			(justify left)
 		)
 		(uuid "ee11f830-bd4e-410a-866d-e3c884063a6f")
-	)
-	(hierarchical_label "SD_CMD"
-		(shape input)
-		(at 67.31 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fbb622a2-da4b-4612-8617-ffd744d9d927")
 	)
 	(symbol
 		(lib_id "Allwinner_A33:A33")
@@ -9123,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "A33"
+		(property "MPN" "\"Allwinner A33\" or \"Allwinner R16\""
 			(at 41.91 14.859 0)
 			(effects
 				(font
@@ -11828,7 +11847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "A33"
+		(property "MPN" "\"Allwinner A33\" or \"Allwinner R16\""
 			(at 191.77 30.099 0)
 			(effects
 				(font
@@ -12903,6 +12922,15 @@
 			)
 		)
 		(property "Description" "USB serial converter, UART, SOIC-16"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CH340C"
 			(at 101.6 153.67 0)
 			(effects
 				(font

@@ -8429,7 +8429,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "A33"
+		(property "MPN" "\"Allwinner A33\" or \"Allwinner R16\""
 			(at 151.13 46.609 0)
 			(effects
 				(font
