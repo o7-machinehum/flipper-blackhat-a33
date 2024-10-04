@@ -32,3 +32,4 @@ fp-info-cache
 
 .DS_Store
 hardware-rescue.kicad_sym
+*.lck
