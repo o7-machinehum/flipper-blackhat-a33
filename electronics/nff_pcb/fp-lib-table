@@ -6,4 +6,5 @@
   (lib (name "MPM-15-5")(type "KiCad")(uri "${KIPRJMOD}/MPM-15-5/eec.pretty")(options "")(descr ""))
   (lib (name "Abracon")(type "KiCad")(uri "${KIPRJMOD}/Abracon/eec.pretty")(options "")(descr ""))
   (lib (name "KiLib")(type "KiCad")(uri "${KIPRJMOD}/../kilib/kilib.pretty")(options "")(descr ""))
+  (lib (name "SNH.4020.TYB1R0MT00")(type "KiCad")(uri "${KIPRJMOD}/SNH.4020.TYB1R0MT00.pretty")(options "")(descr ""))
 )

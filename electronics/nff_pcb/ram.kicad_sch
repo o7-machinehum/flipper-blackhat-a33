@@ -5830,6 +5830,26 @@
 		)
 		(uuid "fffd5ed8-f0b0-4930-80b8-6a5a962069af")
 	)
+	(text "OG Part\nAS4C512M16D3L-12BIN"
+		(exclude_from_sim no)
+		(at 103.378 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e44a38ff-cde3-4cdc-aae8-189b7078a80f")
+	)
+	(text "DDR3L\n96Pin BGA"
+		(exclude_from_sim no)
+		(at 107.95 24.384 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "f7424c55-608d-4cbf-8ee9-21cdc6647a4b")
+	)
 	(label "adr12"
 		(at 45.72 62.23 180)
 		(fields_autoplaced yes)
@@ -7201,7 +7221,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AS4C512M16D3L-12BIN"
+		(property "MPN" "ZDV4256M16A-13DPH"
 			(at 226.06 45.339 0)
 			(effects
 				(font
@@ -7570,7 +7590,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AS4C512M16D3L-12BIN"
+		(property "MPN" "ZDV4256M16A-13DPH"
 			(at 44.45 31.75 0)
 			(effects
 				(font

@@ -4626,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-131KL"
+		(property "MPN" "RC0402JR-071KL"
 			(at 110.49 106.68 90)
 			(effects
 				(font
@@ -4694,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CONREVSMA002-G"
+		(property "MPN" "SMA-KWE901"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -5251,7 +5251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-131KL"
+		(property "MPN" "RC0402JR-071KL"
 			(at 101.6 104.14 90)
 			(effects
 				(font
@@ -5405,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-1310KL"
+		(property "MPN" "RC0402JR-0710KL"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 171.45 111.125 0)
 			(effects
 				(font
